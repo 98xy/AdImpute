@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-parser = argparse.ArgumentParser(description = 'AutoImpute')
+parser = argparse.ArgumentParser(description = 'AdImpute')
 
 # Print debug statements
 parser.add_argument('--debug', type = bool, default=True, nargs = '+', help = "Want debug statements.")
